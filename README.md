@@ -1,11 +1,11 @@
-# Codeleap Network
+# CodeLeap Network
 
 
-Front-end for Codeleap Network, an online platform for sharing posts.
+Front-end for CodeLeap Network, an online platform for sharing posts.
 
 ## 📋 About
 
-This project is about Codeleap Network, a platform where users can post random content alongside others in a communal space.
+This project is about a platform where users can post random content alongside others in a communal space.
 
 ## 💻 Languages and Technologies
 
