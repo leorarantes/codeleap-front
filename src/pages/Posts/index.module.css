@@ -149,7 +149,10 @@
 }
 
 .post-body p {
+    max-height: 20vw;
     font-size: 1.1vw;
+    word-wrap: break-word;
+    overflow: auto;
 }
 
 .delete-modal, .edit-modal {
