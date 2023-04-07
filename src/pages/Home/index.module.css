@@ -1,0 +1,61 @@
+.container {
+    width: 42vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-modal {
+    width: 100%;
+    height: 100%;
+}
+
+.auth-modal h1 {
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.auth-modal label {
+    font-size: 1vw;
+}
+
+.auth-modal input {
+    width: 100%;
+    height: calc(0.9vw + 16px);
+    border: 1px solid #777777;
+    border-radius: 0.416667vw;
+    font-size: 0.9vw;
+    line-height: 100%;
+    color: #CCCCCC;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.auth-modal div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-modal button {
+    background: #7695EC;
+    border-radius: 0.416667vw;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 20px 7px 20px;
+}
+
+.auth-modal button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.auth-modal button:disabled:hover {
+    opacity: 0.5;
+}

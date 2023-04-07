@@ -1,0 +1,32 @@
+.container {
+    width: 42vw;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container ion-icon, .container h1 {
+    font-size: 1vw;
+    color: #777777;
+}
+
+.container div:first-child ion-icon {
+    margin-right: 3px;
+}
+
+.container div:last-child h1 {
+    margin-right: 3px;
+}
+
+.hidden {
+    visibility: hidden;
+}

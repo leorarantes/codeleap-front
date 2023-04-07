@@ -1,0 +1,235 @@
+.container {
+    width: 42vw;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: calc(1.4vw + 55px) 20px 10px 20px;
+}
+
+.new-post {
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 0.833333vw;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.new-post h1 {
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.new-post label {
+    font-size: 1vw;
+}
+
+.new-post input, .new-post textarea {
+    width: 100%;
+    border: 1px solid #777777;
+    border-radius: 0.416667vw;
+    font-size: 0.9vw;
+    line-height: 100%;
+    color: #CCCCCC;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.new-post input {
+    height: calc(0.9vw + 16px);
+}
+
+.new-post textarea {
+    height: calc(3.6vw + 16px);
+}
+
+.new-post > div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new-post button {
+    width: calc(3vw + 50px);
+    height: calc(1vw + 14px);
+    background: #7695EC;
+    border-radius: 0.416667vw;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 7px 25px 7px 25px;
+    color: #ffffff;
+}
+
+.new-post button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.new-post button:disabled:hover {
+    opacity: 0.5;
+}
+
+.posts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.post:last-child {
+    margin-bottom: 0px;
+}
+
+.post-header {
+    width: 100%;
+    background-color: #7695EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 0.833333vw;
+    border-top-left-radius: 0.833333vw;
+    padding: 15px;
+}
+
+.post-header h1 {
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.post-header div {
+    display: flex;
+    align-items: center;
+}
+
+.post-header img {
+    height: 1.4vw;
+    cursor: pointer;
+}
+
+.post-header img:first-child {
+    height: 1.5vw;
+    margin-right: 15px;
+}
+
+.post-body {
+    width: 100%;
+    padding: 15px;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-bottom-right-radius: 0.833333vw;
+    border-bottom-left-radius: 0.833333vw;
+}
+
+.post-body div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.post-body h2 {
+    font-size: 1.1vw;
+    color: #777777;
+}
+
+.post-body span {
+    font-weight: 700;
+    color: #777777;
+}
+
+.post-body p {
+    font-size: 1.1vw;
+}
+
+.delete-modal, .edit-modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.delete-modal h1, .edit-modal h1 {
+    width: 100%;
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.delete-modal div, .edit-modal div {
+    display: flex;
+    align-items: center;
+}
+
+.delete-modal button, .edit-modal button {
+    width: calc(3vw + 40px);
+    height: calc(1vw + 14px);
+    display: flex;
+    align-items: center;
+    border-radius: 0.416667vw;
+    font-size: 1vw;
+}
+
+.delete-modal button:first-child, .edit-modal button:first-child {
+    border: 1px solid #999999;
+}
+
+.delete-modal button:last-child {
+    background-color: #FF5151;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.edit-modal button:last-child {
+    background-color: #47B960;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.edit-modal label {
+    width: 100%;
+    font-size: 1vw;
+    text-align: start;
+}
+
+.edit-modal input, .edit-modal textarea {
+    width: 100%;
+    border: 1px solid #777777;
+    border-radius: 0.416667vw;
+    font-size: 0.9vw;
+    line-height: 100%;
+    color: #CCCCCC;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.new-post textarea {
+    height: calc(3.6vw + 16px);
+    margin-bottom: 20px;
+}
+
+.edit-modal button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.edit-modal button:disabled:hover {
+    opacity: 0.5;
+}
+
+.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,23 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(221, 221, 221, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.container {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container>div {
+    margin-top: 3px;
+}

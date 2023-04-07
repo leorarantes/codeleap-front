@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, p, text, em, button, input, label {
+    font-family: 'Roboto';
+    line-height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+input::placeholder {
+    background: none;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    transition-delay: 9999s;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
